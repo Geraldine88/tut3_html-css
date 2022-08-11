@@ -1,0 +1,116 @@
+body{
+	background-color: hsl(217, 54%, 11%);
+	color: white;
+}
+
+.main{
+	background-color: hsl(216, 50%, 16%);
+	width: 40%;
+	margin: 5% auto;
+	border-radius: 1rem;
+	padding-top: 1%;
+}
+
+.section1{
+	text-align: center;
+	margin:6% ;
+	/*border-style: solid;*/
+	/*border-color: white;*/
+	border-radius: 1rem;
+}
+
+.section2{
+	display: block;
+	margin: 3%;
+}
+
+.section2 p{
+	color: hsl(215, 51%, 70%);
+}
+
+.section3{
+	display: flex;
+	margin: 3%;
+	text-align: center;
+}
+
+.section3 .left{
+	width: 70%;
+	display: flex;
+	text-align: center;
+}
+
+.section3 .left .l1{
+	padding: 3%;
+}
+
+.section3 .left .l2 p{
+	color: hsl(178, 100%, 50%);
+}
+
+.section3 .right{
+	width: 30%;
+	display: flex;
+	text-align: center;
+}
+
+.section3 .right .r1{
+	padding: 8%;
+}
+
+.section3 .right .r2 p{
+	color: hsl(215, 51%, 70%);
+
+}
+.line{
+	height: 2px;
+	background-color: hsl(215, 32%, 27%);
+	width: 90%;
+	margin: 0 auto;
+}
+
+.section4 {
+	display: flex;
+	text-align: center;
+	margin: 3% 10% 5% 3%;
+}
+
+.section4 img{
+	height: 10%;
+	width: 10%;
+	border: .1rem solid white;
+	border-radius: 100%;
+	margin-right: 7%;
+}
+
+
+span{
+	color: hsl(215, 51%, 70%);
+}
+
+@media screen and (max-width: 375px){
+	.section3 {
+		display: block;
+	}
+
+	.section3 .left .l1{
+		margin-top: 10%;
+		height: 1%;
+		width: 15%;
+	}
+
+	.section3 .right {
+		width: 100%;
+	}
+
+
+	.section3 .right .r1{
+		height: 10%;
+		width: 20%;
+	}
+
+	.section3 .right .r2{
+
+	}
+
+}
